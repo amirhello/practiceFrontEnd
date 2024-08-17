@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { CurrentUserContextType, CurrentUserContext } from "./src/LevelContext";
 import MyComponent from "./src/MyComponent";
 const AppContext = () => {
