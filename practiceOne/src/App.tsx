@@ -1,9 +1,10 @@
 import "./App.css";
-import AppContext from "./component/useContext/AppContext";
+// import AppTheme from "./component/useContext/Theme/AppTheme";
+import AppZustand from "./component/zustand/AppZustand";
 function App() {
   return (
     <>
-      <AppContext></AppContext>
+      <AppZustand></AppZustand>
     </>
   );
 }
